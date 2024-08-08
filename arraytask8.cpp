@@ -18,7 +18,14 @@ int main(){
 	}
 	
 	for(int i=0;i>n;i++){
-		cout<<i<<" ";
+		cout<<arr[i]<<" ";
+		if(arr[i]==key){
+			cout<<i;
+		}
+		
+		else{
+			cout<<"not found";
+		}
 	}
 	
 
